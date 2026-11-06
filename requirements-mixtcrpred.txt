@@ -1,0 +1,5 @@
+-r requirements.txt
+
+torch>=2.1
+torchvision>=0.16
+pytorch-lightning>=2.2,<3

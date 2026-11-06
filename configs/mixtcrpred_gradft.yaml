@@ -1,0 +1,18 @@
+epochs: 100
+patience: 100
+batch_size: 64
+
+enabled: true
+warmup: 5
+exempt_rate: 0.40
+lam: 10.0
+group_by: feature
+flip_top_frac: 0.50
+extra_anchor_samples: 25
+reselect_epoch: 5
+anchor_batch_last: true
+checkpoint_after_warmup: true
+
+with_epitope: true
+select: val_loss
+notes: "gradft arm: warmup 5, 40% exemption"

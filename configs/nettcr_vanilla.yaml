@@ -1,0 +1,19 @@
+epochs: 200
+patience: 200
+batch_size: 64
+learning_rate: 0.001
+dropout_rate: 0.6
+
+enabled: false
+warmup: 50
+exempt_rate: 0.40
+lam: 10.0
+group_by: feature
+flip_top_frac: 0.50
+extra_anchor_samples: 25
+reselect_epoch: 5
+anchor_batch_last: true
+checkpoint_after_warmup: true
+
+select: val_auc_01
+notes: "vanilla NetTCR-2.2 control: same loop, gradft off"

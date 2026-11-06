@@ -1,0 +1,4 @@
+-r requirements.txt
+
+tensorflow[and-cuda]==2.15.1
+matplotlib>=3.5
